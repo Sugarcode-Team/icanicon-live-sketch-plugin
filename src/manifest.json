@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Sync with icanicon.io",
+      "identifier": "icanicon.my-command-identifier",
+      "script": "./sync-with-icanicon.js"
+    }
+  ],
+  "menu": {
+    "title": "icanicon.io",
+    "items": [
+      "icanicon.my-command-identifier"
+    ]
+  }
+}
